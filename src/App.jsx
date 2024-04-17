@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import "./App.css";
-import MyComponent from "./Test";
 
 export const ThemeContext = createContext(null);
 
@@ -22,7 +21,6 @@ export default function App() {
       <div className={theme}>
         <Navbar />
         <Hero />
-        <MyComponent />
         <Footer />
       </div>
     </ThemeContext.Provider>
