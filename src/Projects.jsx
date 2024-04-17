@@ -19,10 +19,10 @@ function Projects() {
 
   return (
     <section className="flex justify-center">
-      <div className="container-fluid ml-0 dark:bg-blue-900 self-start">
+      <div className="container-fluid ml-0 dark:bg-blue-900 self-start mb-16">
         <div className="mx-auto max-w-screen-lg">
           <h2 className="text-3xl font-semibold mb-6 ml-5">My Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {projects.map((project) => (
               <div
                 key={project.id}

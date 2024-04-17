@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <footer
-      className={`dark:bg-gray-700 bg-gray-500 py-4 ${
+      className={`dark:bg-gray-700 bg-gray-500 py-1 ${
         theme === "dark" ? "text-white" : "text-black"
       }`}
       style={{
