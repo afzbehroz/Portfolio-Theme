@@ -25,7 +25,7 @@ function Hero() {
             />
           </div>
           <p className="mb-16">
-            Welcome to my portfolio! <br /> I'm Behroz Afzalian eager and
+            Welcome to my portfolio! <br /> I'm Behroz Afzali, eager and
             persistent web-developer <br /> with a keen interest in tech. <br />
             I embrace challenges with a positive mindset, <br /> always eager to
             learn and adapt. Feel free to browse through my portfolio.
