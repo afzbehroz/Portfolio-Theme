@@ -21,7 +21,7 @@ function Hero() {
             <img
               src="profile.jpeg"
               alt="Profile Picture"
-              className="h-48 rounded-5xl shadow-xl ml-4"
+              className="h-32 md:h-48 lg:h-64  rounded-5xl shadow-xl ml-4"
             />
           </div>
           <p className="mb-16">
