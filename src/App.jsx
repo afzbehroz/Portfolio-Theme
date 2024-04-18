@@ -18,10 +18,12 @@ export default function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className={theme}>
-        <Navbar />
-        <Hero />
-        <Footer />
+      <Navbar />
+      <div className="flex items-center justify-center bg-gradient-to-b dark:from-blue-900 from-purple-500 via-indigo-500 to-cyan-400 sm:pt-24">
+        <div className="w-[900px]">
+          <Hero />
+          <Footer />
+        </div>
       </div>
     </ThemeContext.Provider>
   );

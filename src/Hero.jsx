@@ -8,7 +8,7 @@ function Hero() {
 
   return (
     <div
-      className={`w-screen ml-0 m-8 flex flex-col justify-center items-center mr-auto min-h-screen overflow-x-hidden dark:bg-blue-900 text-white ${heroClass} bg-gradient-to-b from-purple-500 via-indigo-500 to-cyan-400 sm:pt-24`}
+      className={`ml-0 m-8 flex flex-col justify-center items-center mr-auto min-h-screen overflow-x-hidden dark:bg-blue-900 text-white ${heroClass} `}
     >
       <div className="mx-auto dark:bg-blue-900 px-5 py-24">
         <div className="text-left  w-full">
